@@ -1,7 +1,11 @@
 [package]
 name = "bin2hpp"
 version = "0.1.0"
+authors = ["Adam Macdonald"]
 edition = "2024"
+license = "Unlicense"
+license-file = "LICENSE"
+readme = "README.md"
 
 [dependencies]
 clap = { version = "4.5.35", features = ["derive"] }
