@@ -117,7 +117,8 @@ fn main() -> ExitCode {
 
     let output_file = match OpenOptions::new()
         .write(true)
-        .create_new(true)
+        .truncate(true)
+        .create(true)
         .open(output_path)
     {
         Ok(f) => f,
